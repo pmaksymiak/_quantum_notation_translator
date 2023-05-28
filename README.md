@@ -82,3 +82,19 @@ Conversely, if you have a point represented by Cartesian coordinates (X, Y, Z) o
 ϕ = arctan2(Y, X)
 
 These equations allow you to convert between the Cartesian and spherical representations of a point on the Bloch sphere.
+
+Execution Example: 
+Bloch sphere coordinates: θ=1.649, ϕ=4.932
+These are the polar and azimuthal angles that determine the state of the qubit on the Bloch sphere.
+θ (theta) is the polar angle (from the positive z-axis).
+ϕ (phi) is the azimuthal angle (from the positive x-axis).
+
+State in the computational basis: |qubit⟩ = 0.6789241546800411 |0⟩ + (0.1599473037314664-0.7165743870813591j) |1⟩
+This is the state of the qubit in the computational basis, which is a superposition of the |0⟩ and |1⟩ states.
+
+Probability of measuring |0⟩: 0.46093800780800837
+Probability of measuring |1⟩: 0.5390619921919915
+
+Calculations:
+The amplitude of the |0⟩ state is a real number: 0.6789241546800411.
+The probability of measuring the |1⟩ state is the absolute square of its amplitude: |(0.1599473037314664-0.7165743870813591j)|^2 = 0.5390619921919915.
