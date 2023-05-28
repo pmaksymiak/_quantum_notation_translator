@@ -1,4 +1,3 @@
-#TRANSLATION OF BLOCH SPHERE INTO THE COMPUTATIONAL NOTATION
 import numpy as np
 
 def decode_bloch_sphere(theta, phi):
