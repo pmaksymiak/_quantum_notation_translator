@@ -1,5 +1,7 @@
 # Translation of Quantum Qubit Notations:
-Bloch Sphere Representation: The Bloch sphere is a geometrical representation used in quantum computing to visualize the state of a single qubit—the fundamental unit of quantum information. The state of any qubit can be represented as a point inside or on the surface of the unit sphere in a three-dimensional Cartesian coordinate system. The north and south poles of the Bloch sphere usually represent the two basis states |0⟩ and |1⟩, respectively. Any point inside the sphere represents a mixed state, while points on the surface represent pure states. The position of the point on the sphere is determined by two angles, θ and φ, which correspond to the latitude and longitude on the sphere.
+## Bloch Sphere Representation: 
+
+The Bloch sphere is a geometrical representation used in quantum computing to visualize the state of a single qubit—the fundamental unit of quantum information. The state of any qubit can be represented as a point inside or on the surface of the unit sphere in a three-dimensional Cartesian coordinate system. The north and south poles of the Bloch sphere usually represent the two basis states |0⟩ and |1⟩, respectively. Any point inside the sphere represents a mixed state, while points on the surface represent pure states. The position of the point on the sphere is determined by two angles, θ and φ, which correspond to the latitude and longitude on the sphere.
 
 Theta (θ): This is the polar angle, also known as the co-latitude or zenith angle. It is measured from the positive z-axis (the vertical axis) down to the xy-plane (the horizontal plane). The angle θ ranges from 0 to π (0 to 180 degrees). A θ of 0 corresponds to the |0⟩ state (the north pole of the Bloch sphere), a θ of π corresponds to the |1⟩ state (the south pole of the Bloch sphere), and a θ of π/2 corresponds to an equal superposition of |0⟩ and |1⟩ states (the equator of the Bloch sphere).
 
@@ -32,7 +34,9 @@ When 0 < θ < π, the qubit is in a superposition of |0⟩ and |1⟩, and the pr
 ![ Bloch Sphere ](BLOCH-SPHERE.JPG)
 
 
-Computational Basis Notation: This is another way to represent the state of a qubit or a system of qubits. In this notation, the two basis states of a qubit are represented as |0⟩ and |1⟩. For a system of multiple qubits, the basis states are represented as tensor products of the individual qubit states. For example, the basis states of a two-qubit system are |00⟩, |01⟩, |10⟩, and |11⟩. A general state of a qubit or a system of qubits can be represented as a linear combination of these basis states. For example, a general state of a two-qubit system can be represented as a|00⟩ + b|01⟩ + c|10⟩ + d|11⟩, where a, b, c, and d are complex numbers.
+## Computational Basis Notation: 
+
+This is another way to represent the state of a qubit or a system of qubits. In this notation, the two basis states of a qubit are represented as |0⟩ and |1⟩. For a system of multiple qubits, the basis states are represented as tensor products of the individual qubit states. For example, the basis states of a two-qubit system are |00⟩, |01⟩, |10⟩, and |11⟩. A general state of a qubit or a system of qubits can be represented as a linear combination of these basis states. For example, a general state of a two-qubit system can be represented as a|00⟩ + b|01⟩ + c|10⟩ + d|11⟩, where a, b, c, and d are complex numbers.
 
 
 The computational basis notation is a way to represent the state of a quantum system, particularly a system of qubits, which are the fundamental units of quantum information.
@@ -83,10 +87,13 @@ Conversely, if you have a point represented by Cartesian coordinates (X, Y, Z) o
 
 These equations allow you to convert between the Cartesian and spherical representations of a point on the Bloch sphere.
 
-Execution Example: 
+## Execution Example: 
 Bloch sphere coordinates: θ=1.649, ϕ=4.932
+
 These are the polar and azimuthal angles that determine the state of the qubit on the Bloch sphere.
+
 θ (theta) is the polar angle (from the positive z-axis).
+
 ϕ (phi) is the azimuthal angle (from the positive x-axis).
 
 State in the computational basis: |qubit⟩ = 0.6789241546800411 |0⟩ + (0.1599473037314664-0.7165743870813591j) |1⟩
